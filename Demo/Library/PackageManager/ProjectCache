@@ -155,11 +155,11 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.services.core
     version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords:
   - backup
@@ -611,6 +611,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -632,6 +633,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -972,6 +974,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.7.2
     - 1.7.3
@@ -986,6 +989,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     verified: 1.7.6
   dependencies:
   - name: com.unity.modules.audio
@@ -3130,9 +3134,11 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
@@ -3212,6 +3218,7 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.1.1
     - 1.2.0-exp.1
@@ -3227,6 +3234,7 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     verified: 1.1.1
   dependencies:
   - name: com.unity.test-framework
@@ -3284,7 +3292,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3294,23 +3302,67 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
     - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    - 1.14.0
     compatible:
     - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    - 1.14.0
     verified: 1.6.0
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -3321,9 +3373,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638030857680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3419,9 +3471,27 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
     - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
     compatible:
     - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
@@ -3436,7 +3506,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637846828220000000
   documentationUrl: 
   hasRepository: 1
   repository:
